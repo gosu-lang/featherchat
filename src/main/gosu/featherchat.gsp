@@ -1,3 +1,6 @@
+uses views.*
+
 extends sparkgs.SparkGSFile
 
-print( "foo" )
+
+get("/", \-> "featherChat")
