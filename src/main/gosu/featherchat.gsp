@@ -3,4 +3,4 @@ uses views.*
 extends sparkgs.SparkGSFile
 
 
-get("/", \-> "featherChat")
+get("/", \-> "featherChat", null)
